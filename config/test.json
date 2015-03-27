@@ -1,0 +1,28 @@
+{
+    "designation" : "Test",
+    "autoAlertEmail" : "lgerard@diatem.net",
+    "services" : [
+        {
+            "code" : "service1",
+            "alertOnMainRepport" : true,
+            "alertOnFail" : true,
+            "awaitedCalls" : [
+                {
+                    "days" : {
+                        "monday" : true
+                    },
+                    "hours" : [
+                        "10:00",
+                        "12:00"
+                    ]
+                }
+            ]
+        }
+    ],
+    "repports" : [
+        {
+            "hour" : "10:00",
+            "email" : "lgerard@diatem.net"
+        }
+    ]
+}
